@@ -22,6 +22,9 @@ jobs:
           path: |
             dist
             package.json
+            .gitignore
+            .eslintrc.json
+            index.html
   build:
     needs: test
     runs-on: ubuntu-latest
