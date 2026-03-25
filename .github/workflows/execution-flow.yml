@@ -82,6 +82,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: output information
-        run: |
-        echo "Something is wrong"
-        echo "${{ github }}" 
+        run: | 
+          echo "Something is wrong"
+          echo "${{ github }}" 
